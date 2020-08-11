@@ -7,7 +7,7 @@ Most code is adopted from TensorFlow Lite Object Detection iOS Example Applicati
 ## Overview
 This application detects when drivers stops the car and tells you when you need to go while you are waiting the traffic signal.
 
-## <b>Caution<b/>
+## <b>Caution</b>
 * This application does not guarantee any safety related issues.
 * Please drive safe!
 
