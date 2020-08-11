@@ -1,0 +1,8 @@
+{
+  "quantization": true,
+  "quantization_type": "float16",
+  "tf_ops": false,
+  "exp_converter": false,
+  "input_shape": [416, 256, 3],
+  "out_path": "/tflite/model/file/out/path/here/model.tflite"
+}

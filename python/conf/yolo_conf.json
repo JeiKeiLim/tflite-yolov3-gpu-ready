@@ -1,0 +1,71 @@
+{
+  "train": {
+    "last_step_epoch": 0,
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "learning_rate_end": 1e-05,
+    "steps_per_epoch": 200,
+    "validation_step": 10,
+    "batch_size": 16,
+    "val_batch_size": 32,
+    "unfreeze_by_step": 0,
+    "unfreeze_wait_step": 50,
+    "unfreeze_idx_from": 229,
+    "unfreeze_n_layer": 229,
+    "test_score_threshold": 0.5,
+    "test_iou_threshold": 0.5,
+    "load_weight_path": "./load/weight/path/here/to/continue/training/model.h5",
+    "model_save_path": "./save/weight/path/here/to/continue/training/model.h5"
+  },
+  "weight_path": "./load/weight/path/here/for/test/purpose.h5",
+  "self_path": "./conf/model_conf.json",
+   "anchors": [
+    [
+      3.89453125,
+      4.35546875
+    ],
+    [
+      7.48046875,
+      6.58203125
+    ],
+    [
+      3.978515625,
+      7.80078125
+    ],
+    [
+      12.6171875,
+      10.6484375
+    ],
+    [
+      6.08203125,
+      13.734375
+    ],
+    [
+      22.484375,
+      18.03125
+    ],
+    [
+      10.4609375,
+      24.0
+    ],
+    [
+      40.59375,
+      34.1875
+    ],
+    [
+      89.625, 77.375
+    ]
+  ],
+  "grid_ratio": {
+    "0": 32,
+    "1": 16,
+    "2": 8
+  },
+  "input_shape": [256, 416, 3],
+   "class_ids": [
+    "car", "bus",
+    "truck",
+    "traffic light"
+  ],
+  "n_filters": [512, 256, 128]
+}

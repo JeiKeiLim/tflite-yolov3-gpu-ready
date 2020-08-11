@@ -1,0 +1,10 @@
+tfhelper>=0.0.41
+tensorflow>=2.2.0
+matplotlib>=3.2.1
+seaborn>=0.10.1
+pandas>=1.0.3
+opencv-python>=4.2.0
+tensorflow-model-optimization>=0.3.0
+numpy>=1.16.0
+efficientnet>=1.1.0
+tqdm>=4.46.1

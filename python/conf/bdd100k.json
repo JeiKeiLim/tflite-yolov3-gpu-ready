@@ -1,0 +1,89 @@
+{
+  "dataset_type": "bdd100k",
+  "dataset_path": "/dataset/root/path/here",
+  "use_classes": [
+    "car", "bus",
+    "truck",
+    "traffic light"
+  ],
+  "must_include_classes": [
+    "traffic light"
+  ],
+  "rotate_trafficlight": {
+    "p": 0.8,
+    "ratio_threshold": 1.5
+  },
+  "exclude_class_with_attributes": {
+    "traffic light": {
+      "exclude_condition": "or",
+      "trafficLightColor": "none"
+    },
+    "car": {
+      "exclude_condition": "and",
+      "truncated": true,
+      "occluded": true
+    },
+    "bus": {
+      "exclude_condition": "and",
+      "truncated": true,
+      "occluded": true
+    },
+    "truck": {
+      "exclude_condition": "and",
+      "truncated": true,
+      "occluded": true
+    }
+  },
+  "exclude_class_with_box_ratio": {
+    "traffic lgiht": 0.01,
+    "car": 0.05,
+    "bux": 0.05,
+    "truck": 0.05
+  },
+  "input_shape": [
+    256, 416
+  ],
+  "self_path": "./conf/bdd100k.json",
+  "anchors": [
+    [
+      3.89453125,
+      4.35546875
+    ],
+    [
+      7.48046875,
+      6.58203125
+    ],
+    [
+      3.978515625,
+      7.80078125
+    ],
+    [
+      12.6171875,
+      10.6484375
+    ],
+    [
+      6.08203125,
+      13.734375
+    ],
+    [
+      22.484375,
+      18.03125
+    ],
+    [
+      10.4609375,
+      24.0
+    ],
+    [
+      40.59375,
+      34.1875
+    ],
+    [
+      89.625, 77.375
+    ]
+  ],
+  "grid_ratio": {
+    "0": 32,
+    "1": 16,
+    "2": 8
+  }
+}
