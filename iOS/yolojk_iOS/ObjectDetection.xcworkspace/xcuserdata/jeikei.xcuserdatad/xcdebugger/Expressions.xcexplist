@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "YoloJKResult.processFeatureMaps(featMap01:featMap02:featMap03:):YoloJKResult.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "boxes[5]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloModelDataHandler.runModel(onFrame:):YoloModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Float](unsafeData: interpreter.output(at: 0).data) ?? []">
+            </PersistentString>
+            <PersistentString
+               value = "[Float](unsafeData: interpreter.output(at: 3).data) ?? []">
+            </PersistentString>
+            <PersistentString
+               value = "[Float](unsafeData: interpreter.output(at: 2).data) ?? []">
+            </PersistentString>
+            <PersistentString
+               value = "[Float](unsafeData: interpreter.output(at: 1).data) ?? []">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Array&lt;A&gt;.argSort(from:to:):TFLiteExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "from">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloJKResult.bboxesToInferences(yoloBoxes:):YoloJKResult.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.srcSize!.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ModelDataHandler.runModel(onFrame:):ModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Float](unsafeData: outputBoundingBox.data) ?? []">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloModelDataHandler.formatResults(boundingBox:outputClasses:outputScores:width:height:):YoloModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "i+1">
+            </PersistentString>
+            <PersistentString
+               value = "Array(outputClasses[0 .. 6])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InferenceViewController.tableView(_:heightForRowAt:):InferenceViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "InferenceInfo.allCases.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloJKModelDataHandler.init(modelFileInfo:labelsFileInfo:threadCount:):YoloJKModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.yoloResult">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in YoloJKResult.processFeatureMaps(featMap01:featMap02:featMap03:):YoloJKResult.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FlatArray&lt;&gt;.getArray(_:_:_:length:):TFLiteExtension.swift">
+      </ContextState>
+      <ContextState
+         contextName = "InferenceViewController.tableView(_:cellForRowAt:):InferenceViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "YoloJKResult.processBBox(box:y:x:featShape:anchor:):YoloJKResult.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "[6, 7, 8].map {self.anchors[$0]}">
+            </PersistentString>
+            <PersistentString
+               value = "self.modelInputSize.width">
+            </PersistentString>
+            <PersistentString
+               value = "featShape">
+            </PersistentString>
+            <PersistentString
+               value = "self.modelInputSize.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloJKModelDataHandler.runModel(onFrame:):YoloJKModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Float](unsafeData: featMap01.data) ?? []">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloJKResult.processFeatureMap(_:anchors:):YoloJKResult.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Array(anchors[1...2].indices)">
+            </PersistentString>
+            <PersistentString
+               value = "bboxes.count">
+            </PersistentString>
+            <PersistentString
+               value = "confItem![4].sigmoid">
+            </PersistentString>
+            <PersistentString
+               value = "self.threshold_sig">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FlatArray&lt;&gt;.searchScore(idx:threshold:):TFLiteExtension.swift">
+      </ContextState>
+      <ContextState
+         contextName = "InferenceViewController.numberOfSections(in:):InferenceViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "InferenceSections.allCases">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InferenceViewController.tableView(_:numberOfRowsInSection:):InferenceViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "InferenceInfo.allCases">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloModelDataHandler.init(modelFileInfo:labelsFileInfo:threadCount:):YoloModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.path(forResource: &quot;detect&quot;, ofType: &quot;tflite&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "interpreter.nodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "YoloJKModelDataHandler.rgbDataFromBuffer(_:byteCount:isModelQuantized:):YoloJKModelDataHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bytes.flatMap{ Float($0) / 255.0 }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
