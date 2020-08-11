@@ -1,0 +1,4 @@
+Car
+Bus
+Truck
+TrafficLight
