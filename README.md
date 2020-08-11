@@ -15,6 +15,8 @@ Please refer to [iOS/yolojk_iOS](https://github.com/JeiKeiLim/tflite-yolov3-gpu-
 ## 2. gonogono - Observing traffic signs and front car instead of the driver
 Please refer to [iOS/gonogono](https://github.com/JeiKeiLim/tflite-yolov3-gpu-ready/tree/master/iOS/gonogono) directory of this repository.
 
+<img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/gonogono.gif" />
+
 # Future update
 * Make model smaller -> under 5MB
 * Int8 quantization support
