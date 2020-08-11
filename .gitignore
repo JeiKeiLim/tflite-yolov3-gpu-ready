@@ -5,3 +5,5 @@ export
 Android
 Pods
 .tflite
+github_sources
+labelImg
