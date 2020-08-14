@@ -49,7 +49,12 @@ You'll have to grant permissions for the app to use the device's camera. Point t
 _Please do not delete the empty references_ to the .tflite and .txt files after you clone the repo and open the project. These references will be fulfilled once the model and label files are downloaded when the application is built and run for the first time. If you delete the references to them, you can still find that the .tflite and .txt files are downloaded to the Model folder, the next time you build the application. You will have to add the references to these files in the bundle separately in that case.
 
 ## Model Used
-You can download pre-trained model [here](https://drive.google.com/file/d/13S6Gi4mACYwX6QGKwlGglzBGgy69XX_-/view?usp=sharing) and label information text [here](https://drive.google.com/file/d/1TfZRrTMj1Yx1b9lB8QpLEM9PKBwrgJPd/view?usp=sharing).
+You can download pre-trained model in below table.
+
+|Model Name|# Params|Model Download|Label Download|
+|----------|--------|--------------|--------------|
+|MobileNetV1|~9M|[model download](https://drive.google.com/file/d/1U-4Apzc07B85MP_e6M_JZ3IlkT1OiILC/view?usp=sharing)|[label download](https://drive.google.com/file/d/1TfZRrTMj1Yx1b9lB8QpLEM9PKBwrgJPd/view?usp=sharing)|
+|MobileNetV1|~2.3M|[model download](https://drive.google.com/file/d/13S6Gi4mACYwX6QGKwlGglzBGgy69XX_-/view?usp=sharing)|[label download](https://drive.google.com/file/d/1TfZRrTMj1Yx1b9lB8QpLEM9PKBwrgJPd/view?usp=sharing)|
 
 Once you have the model file, place the model file into `Model/` directory
 
