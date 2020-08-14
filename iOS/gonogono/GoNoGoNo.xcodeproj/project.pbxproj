@@ -22,6 +22,7 @@
 		AAAB09702189838A0015A1F2 /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB096F2189838A0015A1F2 /* CVPixelBufferExtension.swift */; };
 		AAC58495214797E800FB532F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC58494214797E800FB532F /* StringExtension.swift */; };
 		AAEF3D8D21A2BE2B0073AE1C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF3D8C21A2BE2B0073AE1C /* UIColorExtension.swift */; };
+		D21712C424E6410D00EBE452 /* yolo_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = D26E890524E27D4F00C66510 /* yolo_model.tflite */; };
 		FC0282CD24A8463200984599 /* singingbowl01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0282CC24A8463200984599 /* singingbowl01.mp3 */; };
 		FC0769B524A4B95D0015B8E6 /* NoneMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0769B424A4B95D0015B8E6 /* NoneMaxSuppression.swift */; };
 		FC4D916524A36D2300A5148D /* TFLiteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D916424A36D2300A5148D /* TFLiteExtension.swift */; };
@@ -279,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21712C424E6410D00EBE452 /* yolo_model.tflite in Resources */,
 				AA9AC5A9212D39FD000B4E9D /* LaunchScreen.storyboard in Resources */,
 				FCDE2EAE249F1A8300DFC6CF /* yolo_label.txt in Resources */,
 				AA9AC5A6212D39FD000B4E9D /* Assets.xcassets in Resources */,

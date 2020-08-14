@@ -24,6 +24,7 @@
 		AAC58495214797E800FB532F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC58494214797E800FB532F /* StringExtension.swift */; };
 		AAEF3D8D21A2BE2B0073AE1C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF3D8C21A2BE2B0073AE1C /* UIColorExtension.swift */; };
 		BD05101D461BBC7AE6093FB6 /* Pods_ObjectDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B929A3E0B4936F1BA8BCF061 /* Pods_ObjectDetection.framework */; };
+		D21712C324E6409A00EBE452 /* yolo_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = D2981DF324E2793A0052E054 /* yolo_model.tflite */; };
 		FC0769B524A4B95D0015B8E6 /* NoneMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0769B424A4B95D0015B8E6 /* NoneMaxSuppression.swift */; };
 		FC4D916524A36D2300A5148D /* TFLiteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4D916424A36D2300A5148D /* TFLiteExtension.swift */; };
 		FC9BF08424A34B9B001BE02E /* YoloJKModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9BF08324A34B9B001BE02E /* YoloJKModelDataHandler.swift */; };
@@ -274,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21712C324E6409A00EBE452 /* yolo_model.tflite in Resources */,
 				AAB1116D21511218008C215D /* detect.tflite in Resources */,
 				AA9AC5A9212D39FD000B4E9D /* LaunchScreen.storyboard in Resources */,
 				FCDE2EAE249F1A8300DFC6CF /* yolo_label.txt in Resources */,
