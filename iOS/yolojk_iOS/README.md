@@ -7,6 +7,9 @@ Adpatation from TensorFlow Lite Object Detection iOS Example Application
 ## Overview
 This application is to test object detection only just like the TensorFlow object detection example.
 
+|iPhone X|iPadPro 11"|
+|--------|-----------|
+|<img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/iPhoneX_MBv1_0.5.gif"/>|<img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/iPadPro11_MBv1_0.5.gif"/>|
 
 ## Prerequisites
 
