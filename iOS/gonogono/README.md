@@ -4,6 +4,8 @@ Most code is adopted from TensorFlow Lite Object Detection iOS Example Applicati
 **iOS Versions Supported:** iOS 12.0 and above.
 **Xcode Version Required:** 10.0 and above
 
+<img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/gonogono.gif" />
+
 ## Overview
 This application detects when drivers stops the car and tells you when you need to go while you are waiting the traffic signal.
 
