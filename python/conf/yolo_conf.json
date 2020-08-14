@@ -19,6 +19,7 @@
   },
   "weight_path": "./load/weight/path/here/for/test/purpose.h5",
   "self_path": "./conf/model_conf.json",
+  "alpha": 0.5,
    "anchors": [
     [
       3.89453125,
@@ -67,5 +68,5 @@
     "truck",
     "traffic light"
   ],
-  "n_filters": [512, 256, 128]
+  "n_filters": [256, 128, 64]
 }

@@ -29,7 +29,7 @@ class YoloJK:
 
         model = MobileNetV1(input_shape=self.input_shape,
                             n_classes=0,
-                            alpha=1.0).build_model()
+                            alpha=self.config['alpha']).build_model()
 
         x1 = model.get_layer("l12_02_ReLU").output
         x2 = model.get_layer("l10_02_ReLU").output
