@@ -12,12 +12,24 @@ You can find out [iOS](https://github.com/JeiKeiLim/tflite-yolov3-gpu-ready/tree
 ## 1. YOLO object detection example project
 Please refer to [iOS/yolojk_iOS](https://github.com/JeiKeiLim/tflite-yolov3-gpu-ready/tree/master/iOS/yolojk_iOS) directory of this repository.
 
+|iPhone X|iPadPro 11"|
+|--------|-----------|
+|<img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/iPhoneX_MBv1_0.5.gif"/>|<img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/iPadPro11_MBv1_0.5.gif"/>|
+
 ## 2. gonogono - Observing traffic signs and front car instead of the driver
 Please refer to [iOS/gonogono](https://github.com/JeiKeiLim/tflite-yolov3-gpu-ready/tree/master/iOS/gonogono) directory of this repository.
 
 <img src="https://raw.githubusercontent.com/JeiKeiLim/mygifcontainer/master/gonogono/gonogono.gif" />
 
+# Performance
+|Model Name|# Params|# Label|Device|FPS|
+|----------|--------|-------|------|---|
+|MobileNetV1|~9M|4|iPhone X|15~20|
+|MobileNetV1|~2.3M|4|iPhone X|30~35|
+|MobileNetV1|~2.3M|4|iPad Pro 11"|60~70|
+
 # Future update
-* Make model smaller -> under 5MB
+* ~Make model smaller -> under 5MB~
 * Int8 quantization support
 * Android example application
+* CoreML Support
